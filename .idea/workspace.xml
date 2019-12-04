@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316bee2-cbd3-453a-a87b-0dffe0da3da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/validators/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Сheckout/Step3/Step3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/normalizes/step2Normalize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\scripts" />
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\Сheckout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -108,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575374641789</updated>
-      <workItem from="1575374647268" duration="26627000" />
+      <workItem from="1575374647268" duration="27178000" />
     </task>
     <servers />
   </component>

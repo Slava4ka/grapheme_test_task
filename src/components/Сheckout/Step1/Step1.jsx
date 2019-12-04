@@ -1,7 +1,7 @@
 import React from 'react';
 import {Field, reduxForm} from "redux-form";
 import RenderInputField from "../../common/FormsControls/RenderInputField";
-import {validateStep1} from "../../validators/validators";
+import {validateStep1} from "../../../scripts/validators/validators";
 import RenderSelectCountryField from "../../common/FormsControls/RenderSelectCountryField";
 import {connect} from "react-redux";
 
