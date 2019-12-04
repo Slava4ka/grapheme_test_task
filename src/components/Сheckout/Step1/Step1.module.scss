@@ -1,0 +1,68 @@
+@import "../StepsCommonStyle.module";
+
+.step1__heading {
+  margin-top: 33px;
+}
+
+.step1__recipient_label {
+  margin-right: 0.5px;
+  margin-left: 0.5px;
+  margin-top: 20px;
+}
+
+.step1__FIO_input {
+  margin-top: 6px;
+
+  input {
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+  }
+}
+
+.step1__address_label {
+  margin-right: 0.5px;
+  margin-left: 0.5px;
+  margin-top: 30px;
+}
+
+.step1__city_input {
+  margin-top: 6px;
+
+  input {
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+  }
+}
+
+.step1__address_input {
+  margin-top: 10px;
+
+  input {
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+  }
+}
+
+.step1__countryAndZipBox {
+  margin-top: 10px;
+  display: flex;
+
+}
+
+.step1__zip {
+  margin-right: 0.5px;
+
+  input {
+    width: 120px;
+  }
+}
+
+.step1__country {
+  width: 180px;
+  margin-left: 0.5px;
+  margin-right: 20px;
+}
+
+.step1__button{
+  margin-top: 30px ;
+}

@@ -1,0 +1,113 @@
+.heading {
+  font-family: Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+  color: #101D94;
+}
+
+.label {
+  font-family: Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #101D94;
+}
+
+.input {
+  input {
+    background: #FFFFFF;
+    border: 1px solid #DEDCDC;
+    box-sizing: border-box;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-family: Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6B6B6B;
+  }
+}
+
+.input_error{
+    border-color: #FFADAD!important;
+}
+
+.button {
+  background: rgba(25, 165, 39, 0.8);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 180px;
+  height: 45px;
+  font-family: Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.customInput {
+  input[placeholder] {
+    text-overflow: ellipsis;
+  }
+
+  input::-moz-placeholder {
+    text-overflow: ellipsis;
+  }
+
+  input:-moz-placeholder {
+    text-overflow: ellipsis;
+  }
+
+  input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+  }
+
+  input::-webkit-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+  }
+
+  input::-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:-moz-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:-ms-input-placeholder {
+    text-indent: 0;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:focus::-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:focus:-moz-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+  }
+
+  input:focus:-ms-input-placeholder {
+    text-indent: 500px;
+    transition: text-indent 0.3s ease;
+  }
+}

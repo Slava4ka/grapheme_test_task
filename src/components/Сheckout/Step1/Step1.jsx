@@ -5,23 +5,42 @@ import {validateStep1} from "../../../scripts/validators/validators";
 import RenderSelectCountryField from "../../common/FormsControls/RenderSelectCountryField";
 import {connect} from "react-redux";
 
+import style from './Step1.module.scss';
+
 const Step1 = ({handleSubmit, countriesList}) => {
 
     return (
         <form onSubmit={handleSubmit}>
 
-            <p>Получатель</p>
-            <Field name="fullName" type="text" component={RenderInputField} label="ФИО"/>
+            <div className={`${style.heading} ${style.step1__heading}`}>
+                <span>Информация для доставки</span>
+            </div>
 
-            <p>Адрес</p>
-            <Field name="town" type="text" component={RenderInputField} label="Город"/>
-            <Field name="address" type="text" component={RenderInputField} label="Адрес"/>
+            <div className={`${style.label} ${style.step1__recipient_label}`}>
+                <span>Получатель</span>
+            </div>
 
-            <Field name="country" type="text" component={RenderSelectCountryField} label="Страна" options={countriesList}/>
-            <Field name="index" type="text" component={RenderInputField} label="Индекс"/>
+            <Field className={`${style.input} ${style.customInput} ${style.step1__FIO_input}`} name="fullName"
+                   type="text" component={RenderInputField} label="ФИО"/>
 
-            <div>
-                <button>Submit</button>
+            <div className={`${style.label} ${style.step1__address_label}`}>
+                <span>Адрес</span>
+            </div>
+            <Field className={`${style.input} ${style.customInput} ${style.step1__city_input}`} name="town" type="text"
+                   component={RenderInputField} label="Город"/>
+            <Field className={`${style.input} ${style.customInput} ${style.step1__address_input}`} name="address"
+                   type="text" component={RenderInputField} label="Адрес"/>
+
+            <div className={style.step1__countryAndZipBox}>
+                <Field className={style.step1__country} name="country" type="text" component={RenderSelectCountryField} label="Страна"
+                       options={countriesList}/>
+
+                <Field className={`${style.input} ${style.customInput} ${style.step1__zip}`} name="index"
+                       type="text" component={RenderInputField} label="Индекс"/>
+            </div>
+
+            <div className={style.step1__button}>
+                <button className={style.button}>Продолжить</button>
             </div>
         </form>
     )

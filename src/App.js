@@ -12,8 +12,10 @@ function App() {
     return (
         <div className="App">
             <Header/>
-            <Route exact path={'/'} render={() => (<Checkout/>)}/>
-            <Route exact path={'/test'} render={() => (<FieldNormalizingForm/>)}/>
+            <main className="Container">
+                <Route exact path={'/'} render={() => (<Checkout/>)}/>
+                <Route exact path={'/test'} render={() => (<FieldNormalizingForm/>)}/>
+            </main>
         </div>
     );
 }

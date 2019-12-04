@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px #EBF0FF;
+}
+
+.header__inscription_margin {
+  margin: 30px 0 29px 24px;
+}
+
+.header__inscription {
+
+}
+
+.header__inscriptionText {
+  font-family: Helvetica Neue, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  color: black;
+}
+
+
+.header__logoBox {
+}
+
+.header__logoBox_margin {
+  margin: 23px 24px 22px 0;
+}
+
+.header__logo {
+  width: 55px;
+  height: 55px;
+}
