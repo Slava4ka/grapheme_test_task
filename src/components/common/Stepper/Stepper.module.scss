@@ -2,7 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
 
+.stepperHide {
+  display: none;
 }
 
 .stepper__step {
@@ -16,7 +19,7 @@
   opacity: 0.8;
 }
 
-.stepper__chevronRight{
+.stepper__chevronRight {
   color: #979797;
 }
 

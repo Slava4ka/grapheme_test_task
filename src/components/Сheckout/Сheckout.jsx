@@ -8,17 +8,22 @@ import Stepper from "../common/Stepper/Stepper";
 
 const Checkout = () => {
 
-    const [step, setStep] = useState(1);
+    const [step, setStep] = useState(2);
+
+    const [stepperHide, setStepperHide] = useState(false);
 
     const [currentStepper, setCurrentStepper] = useState([{name: 'Доставка', isActive: true},
         {name: 'Оплата', isActive: false}]);
 
     const onSubmitStep1 = () => {
-        setStep(2)
+        setStep(2);
+        setCurrentStepper([{name: 'Доставка', isActive: false},
+            {name: 'Оплата', isActive: true}]);
     };
 
     const onSubmitStep2 = () => {
-        setStep(3)
+        setStep(3);
+        setStepperHide(true);
     };
 
     const getCurrentStep = (step) => {
@@ -45,7 +50,7 @@ const Checkout = () => {
     return (
         <div className={style.formContainer}>
             <div className={style.formContainer__body}>
-                <Stepper stepsArr={currentStepper}/>
+                <Stepper stepsArr={currentStepper} stepperState={stepperHide}/>
                 {currentStep}
             </div>
         </div>

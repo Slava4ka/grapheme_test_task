@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Stepper.module.scss';
 import {FiChevronRight} from "react-icons/fi";
 
-const Stepper = ({stepsArr}) => {
+const Stepper = ({stepsArr, stepperState}) => {
 
     let stepperContent = [];
 
@@ -14,7 +14,7 @@ const Stepper = ({stepsArr}) => {
 
     }
 
-    return (<div className={style.stepper}>
+    return (<div className={(stepperState) ? style.stepperHide : style.stepper}>
         {
             stepperContent.map((step, id) => (step !== "FiChevronRight") ?
                 <span key={id}
