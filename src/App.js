@@ -6,12 +6,14 @@ import {Provider} from "react-redux";
 import store from './redux/redux-store';
 import Checkout from "./components/Сheckout/Сheckout";
 import Header from "./components/Header/Header";
+import FieldNormalizingForm from './components/test'
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Route exact path={'/'} render={() => (<Checkout/>)}/>
+            <Route exact path={'/test'} render={() => (<FieldNormalizingForm/>)}/>
         </div>
     );
 }

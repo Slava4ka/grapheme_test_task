@@ -1,7 +1,9 @@
-import { createStore, combineReducers } from 'redux'
-import { reducer as formReducer } from 'redux-form'
+import {createStore, combineReducers} from 'redux'
+import {reducer as formReducer} from 'redux-form'
+import checkoutReducer from "./reducers/checkout-reducer";
 
 const rootReducer = combineReducers({
+    checkout: checkoutReducer,
     form: formReducer
 });
 
