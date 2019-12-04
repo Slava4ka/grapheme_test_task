@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316bee2-cbd3-453a-a87b-0dffe0da3da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/thankYou.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Сheckout/Step3/Step3.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Checkout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Checkout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step3/Step3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step3/Step3.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vprofiapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +54,7 @@
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\Сheckout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\public" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\common\FormsControls" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components" />
     </key>
@@ -105,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575374641789</updated>
-      <workItem from="1575374647268" duration="57033000" />
+      <workItem from="1575374647268" duration="61114000" />
     </task>
     <servers />
   </component>

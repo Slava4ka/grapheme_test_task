@@ -1,19 +1,27 @@
-.heading {
+@mixin fontSettings($fontSize, $lineHeight){
   font-family: Helvetica Neue, sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 31px;
   color: #101D94;
+  font-weight: 300;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin inputMargin($top, $left, $right) {
+  margin-top: $top;
+  input {
+    margin-left: $left;
+    margin-right: $right;
+  }
+}
+
+
+.heading {
+  @include fontSettings(25px, 31px);
 }
 
 .label {
-  font-family: Helvetica Neue, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 18px;
-  color: #101D94;
+  @include fontSettings(16px, 18px);
 }
 
 .input {
@@ -30,7 +38,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 18px;
-    color: #6B6B6B;
+    color: black;
   }
 }
 

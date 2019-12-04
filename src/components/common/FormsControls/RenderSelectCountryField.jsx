@@ -13,7 +13,17 @@ const RenderInputField = ({input, label, meta: {touched, error, warning}, option
 
         container: (base, state) => ({
             ...base,
-            height: '40px',
+            height: 40,
+        }),
+
+        menu: (base, state) => ({
+            ...base,
+            height: 120,
+        }),
+
+        menuList: (base, state) => ({
+            ...base,
+            height: 120,
         }),
 
         control: (base, state) => ({
@@ -31,6 +41,16 @@ const RenderInputField = ({input, label, meta: {touched, error, warning}, option
             fontSize: 16,
             lineHeight: 18,
             color: '#6B6B6B',
+            marginLeft: 7
+        }),
+        singleValue: (base, state) => ({
+            ...base,
+            fontFamily: 'Helvetica Neue, sans-serif',
+            fontStyle: 'normal',
+            fontWeight: 300,
+            fontSize: 16,
+            lineHeight: 18,
+            color: 'black',
             marginLeft: 7
         })
     };

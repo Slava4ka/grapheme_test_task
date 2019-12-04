@@ -8,7 +8,7 @@ import Stepper from "../common/Stepper/Stepper";
 
 const Checkout = () => {
 
-    const [step, setStep] = useState(2);
+    const [step, setStep] = useState(1);
 
     const [stepperHide, setStepperHide] = useState(false);
 

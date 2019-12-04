@@ -9,12 +9,7 @@
 }
 
 .step2__nameOnTheCard_input {
-  margin-top: 6px;
-  margin-right: 1px;
-
-  input {
-    margin-right: 1px;
-  }
+  @include inputMargin(6px, 0, 1px);
 }
 
 .step2__nameOnTheCard_label {
@@ -22,11 +17,7 @@
 }
 
 .step2__cardNumber_input {
-  margin-top: 6px;
-
-  input {
-    margin-right: 1px;
-  }
+  @include inputMargin(6px, 0, 1px);
 }
 
 .step2__dateAndCvvBox {
