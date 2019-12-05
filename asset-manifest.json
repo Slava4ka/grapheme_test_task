@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/grapheme_test_task/static/css/main.95eb55d8.chunk.css",
+    "main.css": "/grapheme_test_task/static/css/main.a11ac493.chunk.css",
     "main.js": "/grapheme_test_task/static/js/main.308bdfcf.chunk.js",
     "main.js.map": "/grapheme_test_task/static/js/main.308bdfcf.chunk.js.map",
     "runtime-main.js": "/grapheme_test_task/static/js/runtime-main.53d4e940.js",
@@ -8,14 +8,14 @@
     "static/js/2.62b2aed2.chunk.js": "/grapheme_test_task/static/js/2.62b2aed2.chunk.js",
     "static/js/2.62b2aed2.chunk.js.map": "/grapheme_test_task/static/js/2.62b2aed2.chunk.js.map",
     "index.html": "/grapheme_test_task/index.html",
-    "precache-manifest.a732731d197d9491a3ea74f5d652e7bb.js": "/grapheme_test_task/precache-manifest.a732731d197d9491a3ea74f5d652e7bb.js",
+    "precache-manifest.dc7338af03b18cba7affb52f222820d8.js": "/grapheme_test_task/precache-manifest.dc7338af03b18cba7affb52f222820d8.js",
     "service-worker.js": "/grapheme_test_task/service-worker.js",
-    "static/css/main.95eb55d8.chunk.css.map": "/grapheme_test_task/static/css/main.95eb55d8.chunk.css.map"
+    "static/css/main.a11ac493.chunk.css.map": "/grapheme_test_task/static/css/main.a11ac493.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.53d4e940.js",
     "static/js/2.62b2aed2.chunk.js",
-    "static/css/main.95eb55d8.chunk.css",
+    "static/css/main.a11ac493.chunk.css",
     "static/js/main.308bdfcf.chunk.js"
   ]
 }
