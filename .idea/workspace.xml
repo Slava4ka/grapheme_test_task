@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3316bee2-cbd3-453a-a87b-0dffe0da3da2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Checkout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Checkout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575374641789</updated>
       <workItem from="1575374647268" duration="61955000" />
-      <workItem from="1575552729263" duration="1127000" />
+      <workItem from="1575552729263" duration="2930000" />
     </task>
     <servers />
   </component>

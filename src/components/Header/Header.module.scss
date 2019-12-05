@@ -20,6 +20,7 @@
   background: #FFFFFF;
   -webkit-box-shadow: 0 0 10px #EBF0FF;
   box-shadow: 0 0 10px #EBF0FF;
+  min-height: 104px;
 }
 
 .header__inscription_margin {
@@ -38,12 +39,6 @@
   color: black;
 }
 
-@media screen and (max-width: 380px) {
-  .header__inscriptionText {
-    font-size: 14px;
-  }
-}
-
 .header__logoBox {
 }
 
@@ -54,4 +49,11 @@
 .header__logo {
   width: 55px;
   height: 55px;
+}
+
+
+@media screen and (max-width: 380px) {
+  .header__inscriptionText {
+    font-size: 14px;
+  }
 }
