@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316bee2-cbd3-453a-a87b-0dffe0da3da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputFieldStep1.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputFieldStep2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" afterDir="false" />
     </list>
@@ -128,7 +119,7 @@
       <updated>1575374641789</updated>
       <workItem from="1575374647268" duration="61955000" />
       <workItem from="1575552729263" duration="3494000" />
-      <workItem from="1575562735815" duration="22744000" />
+      <workItem from="1575562735815" duration="25898000" />
     </task>
     <servers />
   </component>

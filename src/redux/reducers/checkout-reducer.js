@@ -12,10 +12,7 @@ const EDIT_VALUE_TO_STEP2_FORM_DATA =
 
 const DROP_ALL_STEP_DATA =
 	'grapheme_test_task/checkout-reducer/DROP-ALL-STEP-DATA'
-/*
-const REMOVE_VALUE_TO_FORM_DATA_STACK =
-	'grapheme_test_task/checkout-reducer/REMOVE-VALUE-TO-FORM-DATA-STACK'
-*/
+
 const initialState = {
 	countries: [
 		{ value: 'RUS', label: 'Россия' },
@@ -56,14 +53,16 @@ const checkoutReducer = (state = initialState, action) => {
 				step2FormData: editFormData(state.step2FormData, action.value),
 			}
 		}
+		case DROP_ALL_STEP_DATA: {
+			return { ...state, step1FormData: {}, step2FormData: {} }
+		}
 		default:
 			return state
 	}
 }
 
-export const dropAllStepData = value => ({
+export const dropAllStepData = () => ({
 	type: DROP_ALL_STEP_DATA,
-	value,
 })
 
 export const setToStep1FormData = value => ({

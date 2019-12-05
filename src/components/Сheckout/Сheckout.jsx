@@ -5,12 +5,13 @@ import Step3 from './Step3/Step3'
 import style from './Checkout.module.scss'
 import Stepper from '../common/Stepper/Stepper'
 import {
+	dropAllStepData,
 	setToStep1FormData,
 	setToStep2FormData,
 } from '../../redux/reducers/checkout-reducer'
 import { connect } from 'react-redux'
 
-const Checkout = ({ setToStep1FormData, setToStep2FormData }) => {
+const Checkout = ({ setToStep1FormData, setToStep2FormData, dropAllStepData }) => {
 	const [step, setStep] = useState(1)
 
 	const [stepperHide, setStepperHide] = useState(false)
@@ -66,6 +67,7 @@ const Checkout = ({ setToStep1FormData, setToStep2FormData }) => {
 
 	const onSubmitStep2 = formData => {
 		setToStep2FormData(formData)
+		dropAllStepData()
 		stepperController(3)
 	}
 
@@ -121,4 +123,5 @@ const mapStateToProps = state => ({
 export default connect(mapStateToProps, {
 	setToStep1FormData,
 	setToStep2FormData,
+	dropAllStepData
 })(Checkout)
