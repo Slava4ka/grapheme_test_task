@@ -19,11 +19,25 @@
 .step2__cardNumber_input {
   @include inputMargin(6px, 0, 1px);
 }
-
+/*
 .step2__dateAndCvvBox {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+*/
+
+.step2__dateAndCvvBox {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 

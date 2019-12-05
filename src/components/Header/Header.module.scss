@@ -1,8 +1,24 @@
+/*
 .header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background: #FFFFFF;
+  box-shadow: 0 0 10px #EBF0FF;
+}
+*/
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 0 10px #EBF0FF;
   box-shadow: 0 0 10px #EBF0FF;
 }
 
@@ -11,7 +27,6 @@
 }
 
 .header__inscription {
-
 }
 
 .header__inscriptionText {
@@ -23,6 +38,11 @@
   color: black;
 }
 
+@media screen and (max-width: 380px) {
+  .header__inscriptionText {
+    font-size: 14px;
+  }
+}
 
 .header__logoBox {
 }
