@@ -1,6 +1,6 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
-import RenderInputField from '../../common/FormsControls/RenderInputField'
+import RenderInputField from '../../common/FormsControls/RenderInputFieldStep2'
 import { validateStep2 } from '../../../scripts/validators/validators'
 import {
 	normalizeCardNumber,
@@ -8,8 +8,9 @@ import {
 	normalizeDate,
 } from '../../../scripts/normalizes/step2Normalize'
 import style from './Step2.module.scss'
+import { connect } from 'react-redux'
 
-const Step2 = ({ handleSubmit }) => {
+const Step2 = ({ handleSubmit, buttonBlocked }) => {
 	const upper = value => value && value.toUpperCase()
 
 	return (
@@ -76,7 +77,9 @@ const Step2 = ({ handleSubmit }) => {
 			</div>
 
 			<div className={style.step2__button}>
-				<button className={style.button}>Оплатить</button>
+				<button disabled={buttonBlocked} className={style.button}>
+					Оплатить
+				</button>
 			</div>
 		</form>
 	)
@@ -85,6 +88,11 @@ const Step2 = ({ handleSubmit }) => {
 const ReduxStep2Form = reduxForm({
 	form: 'step2',
 	validate: validateStep2,
+	enableReinitialize: true,
 })(Step2)
 
-export default ReduxStep2Form
+const mapStateToProps = state => ({
+	initialValues: state.checkout.step2FormData,
+})
+
+export default connect(mapStateToProps, {})(ReduxStep2Form)

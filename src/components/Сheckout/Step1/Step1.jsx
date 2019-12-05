@@ -1,6 +1,6 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
-import RenderInputField from '../../common/FormsControls/RenderInputField'
+import RenderInputField from '../../common/FormsControls/RenderInputFieldStep1'
 import { validateStep1 } from '../../../scripts/validators/validators'
 import RenderSelectCountryField from '../../common/FormsControls/RenderSelectCountryField'
 import { connect } from 'react-redux'
@@ -73,9 +73,11 @@ const Step1 = ({ handleSubmit, countriesList }) => {
 const ReduxStep1Form = reduxForm({
 	form: 'step1',
 	validate: validateStep1,
+	enableReinitialize: true,
 })(Step1)
 
 const mapStateToProps = state => ({
+	initialValues: state.checkout.step1FormData,
 	countriesList: state.checkout.countries,
 })
 

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316bee2-cbd3-453a-a87b-0dffe0da3da2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputFieldStep1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputFieldStep2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/normalizes/step2Normalize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/normalizes/step2Normalize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderInputField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Stepper/Stepper.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/StepsCommonStyle.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/FormsControls" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -52,16 +58,16 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\common\FormsControls" />
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\public" />
+      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\public" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\scripts" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src" />
       <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\Сheckout" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\public" />
-      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components\common\FormsControls" />
-      <recent name="C:\Users\Slava\WebstormProjects\grapheme_test_task\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,8 +82,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -102,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
@@ -118,7 +128,7 @@
       <updated>1575374641789</updated>
       <workItem from="1575374647268" duration="61955000" />
       <workItem from="1575552729263" duration="3494000" />
-      <workItem from="1575562735815" duration="3198000" />
+      <workItem from="1575562735815" duration="22744000" />
     </task>
     <servers />
   </component>

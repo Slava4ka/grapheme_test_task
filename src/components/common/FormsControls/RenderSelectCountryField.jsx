@@ -9,7 +9,6 @@ const RenderInputField = ({
 	className,
 }) => {
 	const hasError = touched && error
-	console.log(`error ${label} - ${hasError}`)
 
 	const customStyles = {
 		indicatorSeparator: () => ({

@@ -1,5 +1,7 @@
 import React from 'react'
 import style from '../../Сheckout/StepsCommonStyle.module.scss'
+import { connect } from 'react-redux'
+import { editToStep1FormData } from '../../../redux/reducers/checkout-reducer'
 
 const RenderInputField = ({
 	input,
@@ -8,9 +10,16 @@ const RenderInputField = ({
 	meta: { touched, error, warning },
 	disabled,
 	className,
+	editToStep1FormData,
 }) => {
-	const hasError = touched && error
+	const blur = (name, value) => {
+		if (value.length > 0) {
+			console.log(value)
+			editToStep1FormData({ [name]: value })
+		}
+	}
 
+	const hasError = touched && error
 	return (
 		<div className={className}>
 			<input
@@ -20,10 +29,10 @@ const RenderInputField = ({
 				type={type}
 				value={input.value}
 				disabled={disabled}
-				onBlur={() => console.log(input.value)}
+				onBlur={() => blur(input.name, input.value)}
 			/>
 		</div>
 	)
 }
 
-export default RenderInputField
+export default connect(null, { editToStep1FormData })(RenderInputField)
