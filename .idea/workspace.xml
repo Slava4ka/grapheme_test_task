@@ -5,10 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step1/Step1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Step2/Step2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Сheckout/Сheckout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/RenderSelectCountryField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/checkout-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/FormsControls" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vprofiapp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -125,7 +123,7 @@
       <updated>1575374641789</updated>
       <workItem from="1575374647268" duration="61955000" />
       <workItem from="1575552729263" duration="3494000" />
-      <workItem from="1575562735815" duration="31741000" />
+      <workItem from="1575562735815" duration="40646000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,9 @@ const initialState = {
 }
 
 const editFormData = (currentFormData, newFormData) => {
-	return Object.assign(currentFormData, newFormData)
+	let newFormDataObj = {}
+	Object.assign(newFormDataObj, currentFormData, newFormData)
+	return newFormDataObj
 }
 
 const checkoutReducer = (state = initialState, action) => {

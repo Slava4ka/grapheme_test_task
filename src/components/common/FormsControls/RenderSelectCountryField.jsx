@@ -1,5 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
+import { connect } from 'react-redux'
+import { editToStep1FormData } from '../../../redux/reducers/checkout-reducer'
 
 const RenderInputField = ({
 	input,
@@ -7,6 +9,7 @@ const RenderInputField = ({
 	meta: { touched, error, warning },
 	options,
 	className,
+	editToStep1FormData,
 }) => {
 	const hasError = touched && error
 
@@ -66,18 +69,24 @@ const RenderInputField = ({
 		  }
 		: customStyles
 
+	const onChangeToState = (input, value) => {
+		editToStep1FormData({ [input.name]: value })
+		input.onChange(value)
+	}
+
 	return (
 		<div className={className}>
 			<Select
 				{...input}
 				styles={styles}
 				placeholder={label}
-				onChange={value => input.onChange(value)}
-				onBlur={() => input.onBlur(input.value)}
+				onChange={value => onChangeToState(input, value)}
+				/*onBlur={() => input.onBlur(input.value)}*/
+				onInputChange={() => input.onBlur(input.value)}
 				options={options}
 			/>
 		</div>
 	)
 }
 
-export default RenderInputField
+export default connect(null, { editToStep1FormData })(RenderInputField)
