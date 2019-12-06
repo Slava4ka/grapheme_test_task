@@ -1,9 +1,7 @@
 import { createStore, combineReducers } from 'redux'
 import { reducer as formReducer } from 'redux-form'
 import checkoutReducer from './reducers/checkout-reducer'
-
 import { persistReducer } from 'redux-persist'
-
 import { persistStore } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
