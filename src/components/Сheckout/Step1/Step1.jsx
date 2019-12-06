@@ -77,8 +77,8 @@ const ReduxStep1Form = reduxForm({
 })(Step1)
 
 const mapStateToProps = state => ({
-	initialValues: state.checkout.step1FormData,
-	countriesList: state.checkout.countries,
+	initialValues: state.persistedStore.step1FormData,
+	countriesList: state.persistedStore.countries,
 })
 
 export default connect(mapStateToProps, {})(ReduxStep1Form)

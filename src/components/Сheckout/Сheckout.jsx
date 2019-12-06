@@ -116,12 +116,12 @@ const Checkout = ({ setToStep1FormData, setToStep2FormData, dropAllStepData }) =
 }
 
 const mapStateToProps = state => ({
-	step1Data: state.checkout.step1FormData,
-	step2Data: state.checkout.step1FormData,
+	step1Data: state.persistedStore.step1FormData,
+	step2Data: state.persistedStore.step1FormData,
 })
 
 export default connect(mapStateToProps, {
 	setToStep1FormData,
 	setToStep2FormData,
-	dropAllStepData
+	dropAllStepData,
 })(Checkout)

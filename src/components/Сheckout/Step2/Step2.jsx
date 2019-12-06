@@ -92,7 +92,7 @@ const ReduxStep2Form = reduxForm({
 })(Step2)
 
 const mapStateToProps = state => ({
-	initialValues: state.checkout.step2FormData,
+	initialValues: state.persistedStore.step2FormData,
 })
 
 export default connect(mapStateToProps, {})(ReduxStep2Form)
